@@ -1,0 +1,7 @@
+"use strict";
+
+var Divider = function Divider(props) {
+  return React.createElement("div", { id: "Divider" });
+};
+window.Divider = Divider;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2pzL2NvbXBvbmVudHMvZGl2aWRlci5qc3giXSwibmFtZXMiOlsiRGl2aWRlciIsInByb3BzIiwid2luZG93Il0sIm1hcHBpbmdzIjoiOztBQUFBLElBQU1BLFVBQVUsU0FBVkEsT0FBVSxDQUFDQyxLQUFEO0FBQUEsU0FDYiw2QkFBSyxJQUFHLFNBQVIsR0FEYTtBQUFBLENBQWhCO0FBR0FDLE9BQU9GLE9BQVAsR0FBaUJBLE9BQWpCIiwiZmlsZSI6ImRpdmlkZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBEaXZpZGVyID0gKHByb3BzKSA9PiAoXG4gIFx0PGRpdiBpZD1cIkRpdmlkZXJcIj48L2Rpdj5cbilcbndpbmRvdy5EaXZpZGVyID0gRGl2aWRlcjsiXX0=

@@ -1,0 +1,305 @@
+/**{
+	border:1px solid red;
+}*/
+html {
+	margin:0;
+	display:flex;
+	flex-flow:column;
+}
+
+body {
+	margin:0;
+	display:flex;
+	flex-flow:column;
+	justify-content: center;
+}
+
+#app {
+	display:flex;
+	flex-flow:column;
+	justify-content: center;
+	background-image:url('../../img/gradeBG.png');
+	background-size: 100% 100%;
+}
+
+#appsBody {
+	height:2000px;
+	width:100%;
+	margin-top:50px;
+	display:flex;
+	flex-flow:column;
+	justify-content: center;
+}
+
+#headProfile { 
+	display:flex;
+	flex-flow:column;
+	justify-content: center;
+	align-items:center;
+}
+
+#profileImg { 
+	height:150px;
+	width:150px;
+	border-radius:100px;
+	background-size:100% 100%;
+	background-image:url("../../img/JustinMeskan.jpg");
+	margin:0 0 25px 0;
+}
+
+#headProfileContainer { 
+	display:flex;
+	flex-flow:column;
+}
+
+#name { 
+	text-align:center;
+	font-size:36px;
+}
+
+#jobDesc {
+	text-align:center;
+
+}
+
+#email { 
+	text-align:center;
+
+}
+
+#Divider {
+	width:100%;
+	height:100px;
+	background-image:url('../../img/greyWhiteBg.png');
+	background-size:100% 100%;
+}
+
+#DividerRotated {
+	width:100%;
+	height:100px;
+	background-image:url('../../img/rotatedGreyWhite.png');
+	background-size:100% 100%;
+}
+
+#FirstProject {
+	display:flex;
+	flex-flow:column;
+	justify-content: center;
+	align-items: center;
+	background-image:url('../../img/finalBG.png');
+	background-size:100% 100%;
+	height:550px;
+	width:100%;
+}
+#firstProjectImage {
+	background-image:url('../../img/ChessnuttPic.png');
+	background-size:100% 100%;
+	height:200px;
+	width:20%;
+	border-radius: 5px;
+}
+
+#firstProjectContainer {
+	display:flex;
+	flex-flow:row;
+	align-content: center;
+	align-items:center;
+	justify-content: center;
+	margin-bottom:2%;
+}
+
+#firstProjectDesc {
+	height:20%;
+	width:90%;
+	margin:0 2% 0 5%;
+}
+
+#firstProjectTitle {
+	text-align: center;
+	font-size: 36px;
+}
+
+#titleDescContainer {
+	display:flex;
+	flex-flow:column;
+	align-content: center;
+	width:30%;
+}
+
+.logos {
+	display:flex;
+	flex-flow:row;
+	align-items: center;
+	justify-content: center;
+	width:75%;
+	margin-bottom:2%;
+	background-color:transparent;
+}
+
+.react {
+	background-image:url('../../img/reactjstrans.png');
+	background-size:100% 100%;
+
+}
+
+.threejs {
+	background-image:url('../../img/threejs.png');
+	background-size:100% 100%;
+}
+
+.mongodb {
+	background-image:url('../../img/mongodbtrans.png');
+	background-size:100% 100%;
+}
+
+.nodejs {
+	background-image:url('../../img/nodejstrans.png');
+	background-size:100% 100%;
+}
+
+.html5 {
+	background-image:url('../../img/html5trans.png');
+	background-size:100% 100%;
+}
+
+.css3 {
+	background-image:url('../../img/css3trans.png');
+	background-size:100% 100%;
+}
+
+.expressjs {
+	background-image:url('../../img/expressjstrans.png');
+	background-size:100% 100%;
+}
+
+.thumbnails {
+	height:50px;
+	width:75px;
+	background-color:transparent;
+}
+
+.link {
+	text-decoration: none;
+	color: darkgrey;
+	text-align: center;
+}
+
+.link:hover {
+	color: orange;
+}
+
+#SecondProject {
+	display:flex;
+	flex-flow:column;
+	justify-content: center;
+	align-items: center;
+    background-image: url(../../img/gradeBG.png);
+    background-size: 100% 100%;
+    height:450px;
+    width:100%;
+}
+
+#SecondProjectImage {
+	background-image:url('../../img/calendar.png');
+	background-size:100% 100%;
+	height:200px;
+	width:20%;
+	border-radius: 5px;
+}
+
+#SecondProjectContainer {
+	display:flex;
+	flex-flow:row;
+	align-content: center;
+	align-items:center;
+	justify-content: center;
+	margin-bottom:2%;
+}
+
+#SecondProjectDesc {
+	height:20%;
+	width:90%;
+	margin:0 2% 0 5%;
+}
+
+#SecondProjectTitle {
+	text-align: center;
+	font-size: 36px;
+}
+#ThirdProject {
+	display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../img/finalBG.png);
+    background-size: 100% 100%;
+    height:550px;
+    width:100%;
+}
+
+
+#ThirdProjectImage {
+	background-image:url('../../img/awsPic.png');
+	background-size:100% 100%;
+	height:200px;
+	width:20%;
+	border-radius: 5px;
+}
+
+#ThirdProjectContainer {
+	display:flex;
+	flex-flow:row;
+	align-content: center;
+	align-items:center;
+	justify-content: center;
+	margin-bottom:2%;
+}
+
+#ThirdProjectDesc {
+	height:20%;
+	width:90%;
+	margin:0 2% 0 5%;
+}
+
+#ThirdProjectTitle {
+	text-align: center;
+	font-size: 36px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
